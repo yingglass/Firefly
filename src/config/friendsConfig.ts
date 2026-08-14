@@ -42,12 +42,21 @@ export const friendsConfig: FriendLink[] = [
 		enabled: true,
 	},
 	{
+		title: "yang7834",
+		imgurl: "https://yang7834.github.io/images/avatar.jpeg",
+		desc: "fishingyang的个人博客，记录学习和生活的点滴",
+		siteurl: "https://yang7834.github.io/",
+		tags: ["Blog"],
+		weight: 8,
+		enabled: true,
+	},
+	{
 		title: "Astro",
 		imgurl: "https://avatars.githubusercontent.com/u/44914786?v=4&s=640",
 		desc: "The web framework for content-driven websites. ⭐️ Star to support our work!",
 		siteurl: "https://github.com/withastro/astro",
 		tags: ["Framework"],
-		weight: 8,
+		weight: 7,
 		enabled: true,
 	},
 ];

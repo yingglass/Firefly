@@ -6,13 +6,13 @@ const SITE_LANG = "zh_CN";
 
 export const siteConfig: SiteConfig = {
 	// 站点标题
-	title: "Firefly",
+	title: "YingglassBlog",
 
 	// 站点副标题
-	subtitle: "Demo site",
+	subtitle: "记录代码学习过程",
 
 	// 站点 URL
-	site_url: "https://firefly.cuteleaf.cn",
+	site_url: "https://yingglass.blog",
 
 	// 站点描述
 	description:
@@ -108,13 +108,13 @@ export const siteConfig: SiteConfig = {
 		// 留言板页面开关，需要配置评论系统
 		guestbook: true,
 		// 番组计划页面开关，含追番、游戏、书籍和音乐
-		bangumi: true,
+		bangumi: false,
 		// VNDB页面开关。
-		vndb: true,
+		vndb: false,
 		// 相册页面开关
 		gallery: true,
 		// 追番页面开关
-		anime: true,
+		anime: false,
 		// 动态页面开关
 		dynamic: true,
 		// 书签导航页面开关
